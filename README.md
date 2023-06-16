@@ -192,7 +192,7 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **Add front end UI**
+- [ ] **Add more enumerables to our module**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

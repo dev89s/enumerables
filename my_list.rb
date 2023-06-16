@@ -23,6 +23,6 @@ any_res_false = list.any? { |e| e == 5 }
 puts "any num in array = 2? -> #{any_res_true}"
 puts "any num in array = 5? -> #{any_res_false}"
 
-filter_res = list.filter {|e| e.even?}
+filter_res = list.filter(&:even?)
 
 puts "filter even numbers -> #{filter_res}"
