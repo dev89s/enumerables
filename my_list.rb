@@ -7,10 +7,8 @@ class MyList
     @list = item
   end
 
-  def each
-    @list.each do |item|
-      yield item
-    end
+  def each(&block)
+    @list.each(&block)
   end
 
   attr_reader :list
